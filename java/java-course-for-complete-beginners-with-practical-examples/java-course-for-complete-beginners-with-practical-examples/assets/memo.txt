@@ -1,0 +1,5 @@
+#Class vs Object
+    1. Blueprint or templates to create objects vs Instance of a class
+    2. Declared using "class" keyword vs Created through "new" keyword
+    3. Declared once vs Can be created many times
+    4. Doesn't allocate memory when it's created vs Allocates memory when it s created

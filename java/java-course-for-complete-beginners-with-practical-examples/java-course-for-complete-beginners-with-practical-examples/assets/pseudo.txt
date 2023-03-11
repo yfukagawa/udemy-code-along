@@ -1,0 +1,36 @@
+# Class
+accessModifier class ClassName {
+    variables
+    methods
+}
+
+the "class" is a keyword
+
+## example
+public class NewCar {
+    String color;
+    String make;
+    String model;
+    ...
+    public void startEngine(){
+        ...
+    }
+}
+
+##example
+public class TeamMember {
+    String name;
+    String nickname;
+    ...
+    public void seasonScore(){
+        ...
+    }
+}
+
+
+#CREATE AN OBJECT
+ClassName objectName = new ClassName(parameters);
+
+##example
+NewCar blackSubaruOutback = new NewCar("Black", "Subaru", "Outback", ...);
+

@@ -34,3 +34,23 @@ ClassName objectName = new ClassName(parameters);
 ##example
 NewCar blackSubaruOutback = new NewCar("Black", "Subaru", "Outback", ...);
 
+
+#ACCESS METHODS AND VARIABLES
+## variables
+objectName.variableName
+## methods
+objectName.methodName(parameters)
+
+
+# Constructor
+## example
+class UsedCar {
+    int basePrice;
+    UsedCar(int basePrice) {
+        this.basePrice = basePrice;
+    }
+}
+
+UsedCar redCar = new UsedCar(5000);
+UsedCar blueCar = new UsedCar(3800);
+

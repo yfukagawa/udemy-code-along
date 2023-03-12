@@ -1,5 +1,31 @@
-#Class vs Object
+# Class vs Object
     1. Blueprint or templates to create objects vs Instance of a class
     2. Declared using "class" keyword vs Created through "new" keyword
     3. Declared once vs Can be created many times
     4. Doesn't allocate memory when it's created vs Allocates memory when it s created
+
+# NAMING CONVENTIONS
+Class name = Uppercase for starting of every word
+Object name = camel case
+
+# CONSTRUCTOR
+    - Special method in the class and called when you use new keyword to create objects
+    - How to use:
+        ClassName objectName = new ClassName(parameters);
+    - How to define
+        accessmodifier ClassName(parameters){ ... }
+
+
+#EMPTY OBJECT
+accessModifier ClassName objectName;
+    - object's value is null
+    - no new keyword
+    - can't access methods
+    - can't access variables
+Don't call function on an empty object
+    - it would cause to stop the code immediately with an error.
+    - an example to avoid error
+        -- UsedCar redCar;
+           if(redCar != null){
+            redCar.basePrice();
+           }

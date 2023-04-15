@@ -1,0 +1,21 @@
+Subaru inventory
+
+2022 Subaru Outback
+Black
+5 doors
+5 seats
+30.0 miles per gal. ave.
+Base Price: $20000
+Sales Tax: $1200.0
+Service Fee: $800.0
+Grand Total: $22000.0
+
+2020 Subaru Ascent
+Black
+5 doors
+8 seats
+28.0 miles per gal. ave.
+Base Price: $30000
+Sales Tax: $1800.0
+Service Fee: $1200.0
+Grand Total: $33000.0

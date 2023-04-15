@@ -1,0 +1,11 @@
+Ford inventory
+
+1998 Ford Tauros
+Brown
+4 doors
+5 seats
+12.0 miles per gal. ave.
+Base Price: $2000
+Sales Tax: $120.0
+Service Fee: $80.0
+Grand Total: $2200.0

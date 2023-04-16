@@ -1,4 +1,4 @@
-package classesandobjects;
+package classesandobjects.usedcars;
 
 import java.io.BufferedWriter;
 import java.util.Scanner;
@@ -9,7 +9,7 @@ import java.io.IOException;
 public class UsedCar {
 
     static int basePrice;
-    int mileage;
+    static int mileage;
     static int modelYear;
     static String make;
     static String model;
@@ -48,8 +48,10 @@ public class UsedCar {
 
         scanner.close();
 
-        String fileName = make + ".txt";
-        File file = new File(fileName);
+//        String fileName = make + ".txt";
+//        File file = new File(fileName);
+        String filePath = "../java-course-for-complete-beginners-with-practical-examples/src/classesandobjects/usedcars/" + make + ".txt";
+        File file = new File(filePath);
 
         if(!file.exists()) {
             try {
@@ -95,6 +97,7 @@ public class UsedCar {
         float totalSum = basePrice + salesTax + serviceFee;
         String carInfo = "\n" + modelYear + " " + UsedCar.make + " " + model +
                 "\n" +color +
+                "\n" + mileage + " miles" +
                 "\n"+numberOfDoors+" doors\n" +
                 numberOfSeats+" seats\n" +
                 gasMileAve+" miles per gal. ave.\n" +

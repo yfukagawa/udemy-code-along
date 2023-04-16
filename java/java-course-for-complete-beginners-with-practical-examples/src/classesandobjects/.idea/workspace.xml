@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2d42e8ee-4888-4dfb-bdd0-e5384f83af2c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/cars/CarDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ford.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/Ford.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Honda.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/Honda.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Subaru.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/Subaru.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toyota.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/Toyota.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UsedCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/cars/UsedCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classesandobjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/classesandobjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/CarDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/CarDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/Ford.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/Ford.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/UsedCar.class" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/UsedCar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classesandobjects/classesandobjects/classesandobjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cars/.idea/out/production/classesandobjects/classesandobjects/classesandobjects.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectId" id="2OSzTi6pCKSbJy2l0W2DUVvDypS" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/YFukagawa/Documents/GitHub/udemy-code-along/java/java-course-for-complete-beginners-with-practical-examples/src/classesandobjects/cars",
+    "settings.editor.selected.configurable": "CodeWithMe"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cars/.idea" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="classesandobjects.cars" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d42e8ee-4888-4dfb-bdd0-e5384f83af2c" name="Changes" comment="" />
+      <created>1681568780333</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681568780333</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

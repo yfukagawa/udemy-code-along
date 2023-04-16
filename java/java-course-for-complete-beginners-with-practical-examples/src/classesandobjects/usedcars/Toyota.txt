@@ -1,0 +1,31 @@
+
+2020 Toyota Prius
+Silver
+5 doors
+5 seats
+50.0 miles per gal. ave.
+Base Price: $12000
+Sales Tax: $720.0
+Service Fee: $480.0
+Grand Total: $13200.0
+
+1998 Toyota Prius
+Silver
+5 doors
+5 seats
+33.0 miles per gal. ave.
+Base Price: $5000
+Sales Tax: $300.0
+Service Fee: $200.0
+Grand Total: $5500.0
+
+1997 Toyota Corolla
+Red
+3000 miles
+4 doors
+4 seats
+22.0 miles per gal. ave.
+Base Price: $4670
+Sales Tax: $280.2
+Service Fee: $186.8
+Grand Total: $5137.0

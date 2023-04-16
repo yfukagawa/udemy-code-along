@@ -1,0 +1,21 @@
+Ford inventory
+
+2018 Ford Mustang
+Yellow
+2 doors
+4 seats
+15.0 miles per gal. ave.
+Base Price: $5000
+Sales Tax: $300.0
+Service Fee: $200.0
+Grand Total: $5500.0
+
+2020 Ford Mustang
+Black
+2 doors
+4 seats
+18.0 miles per gal. ave.
+Base Price: $20000
+Sales Tax: $1200.0
+Service Fee: $800.0
+Grand Total: $22000.0

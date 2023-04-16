@@ -1,0 +1,11 @@
+Toyota inventory
+
+1999 Toyota Prius
+White
+5 doors
+5 seats
+33.0 miles per gal. ave.
+Base Price: $2000
+Sales Tax: $120.0
+Service Fee: $80.0
+Grand Total: $2200.0

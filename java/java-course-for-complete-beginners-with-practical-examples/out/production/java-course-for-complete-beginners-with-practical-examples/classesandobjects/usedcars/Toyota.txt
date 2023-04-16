@@ -8,3 +8,13 @@ Base Price: $12000
 Sales Tax: $720.0
 Service Fee: $480.0
 Grand Total: $13200.0
+
+1998 Toyota Prius
+Silver
+5 doors
+5 seats
+33.0 miles per gal. ave.
+Base Price: $5000
+Sales Tax: $300.0
+Service Fee: $200.0
+Grand Total: $5500.0

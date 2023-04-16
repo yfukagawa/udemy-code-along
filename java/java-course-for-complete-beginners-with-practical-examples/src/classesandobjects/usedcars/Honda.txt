@@ -1,0 +1,11 @@
+Honda inventory
+
+2022 Honda Accord
+Black
+4 doors
+5 seats
+35.0 miles per gal. ave.
+Base Price: $20000
+Sales Tax: $1200.0
+Service Fee: $800.0
+Grand Total: $22000.0

@@ -1,0 +1,11 @@
+Jeep inventory
+
+2019 Jeep Cherokee
+White
+5 doors
+5 seats
+14.0 miles per gal. ave.
+Base Price: $5000
+Sales Tax: $300.0
+Service Fee: $200.0
+Grand Total: $5500.0

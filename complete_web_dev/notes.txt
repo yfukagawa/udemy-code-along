@@ -1,0 +1,7 @@
+ECMAscript === Javascript
+BABEL
+
+var vs let
+    var is effective for everything after implemented
+    let is effective only within {}
+const values cannot be reassigned once declaired 

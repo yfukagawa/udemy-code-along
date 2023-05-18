@@ -1,3 +1,6 @@
+////
+//var vs let, and const
+
 const player = 'bobby';
 let experience = 100;
 let wizardlevel = false;
@@ -21,10 +24,11 @@ const obj = {
     experience: 100,
     wizardlevel: false,
 }
-// to change the elements
+// to change the elements of object or array
 // this would return an error
+// because a const cannot be redeclared
 obj = 5;
-// but this would update the target element
+// but this would update the target element of this object
 obj.experience = 5;
 
 ////
@@ -92,3 +96,8 @@ function add(a, b) {
 }
 // by using:
 const add = (a, b) => a + b;
+
+
+//// 
+// primitives are stored in memory as is
+// objects and more comprext variables are not stored as is but its address is stored instead. 

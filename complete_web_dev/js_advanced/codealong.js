@@ -101,3 +101,55 @@ const add = (a, b) => a + b;
 //// 
 // primitives are stored in memory as is
 // objects and more comprext variables are not stored as is but its address is stored instead. 
+
+////
+//Advanced functions
+const first = () => {
+    const greet = 'Hi';
+    const second = () => {
+        alert(greet);
+    }
+    return second;
+}
+
+const newFunc = first();
+newFunc;
+// including parameters, everything inside a function is local -> concept of "Scope"
+
+//Closures
+//child scope always have access to the parent scope, but parents scope don't have access to their children
+// programming to interface
+
+//Currying
+const multiply = (aa, bb) => aa * bb;
+const curriedMultiply = (aa) => (bb) => aa * bb;
+// curriedMultiply(3)(4);
+const multiplyBy5 = curriedMultiply(5);
+
+// Compose
+const compose = (ff, gg) => (aa) => ff(gg(aa));
+const sum = (num) => num + 1;
+compose(sum, sum)(5);
+
+// Avoiding side effects; functional purity
+// determinism
+
+////
+// Advanced array
+const array = [1, 2, 10, 16];
+const double = [];
+const newArray = array.forEach((num) => {
+    double.push(num * 2);
+})
+console.log(double);
+
+// map, filter, reduce
+// map itelates through = transforms the array
+const mapArray = array.map((num) => {
+    return num = 2;
+});
+// with singlle parameter, in theory we can use shorthand version like this (throws error right now):
+// const mapArray = array.map(num => num * 2);
+
+
+console.log(mapArray);

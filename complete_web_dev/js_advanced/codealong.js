@@ -150,6 +150,48 @@ const mapArray = array.map((num) => {
 });
 // with singlle parameter, in theory we can use shorthand version like this (throws error right now):
 // const mapArray = array.map(num => num * 2);
+console.log('map', mapArray);
+
+// filter
+const filterArray = array.filter(num => {
+    return num > 5;
+});
+console.log('filter', filterArray);
+
+// reduce
+const reduceArray = array.reduce((accumulator, num) => {
+    return accumulator + num
+}, 0);
+console.log('reduce', reduceArray);
 
 
-console.log(mapArray);
+//// Advanced Objects
+// reference type
+var object1 = {value: 10};
+var object2 = object1;
+var object3 = {value: 15};
+// context vs scope
+const object4 = {
+    aaa: function() {
+        console.log(this);
+    }
+}
+// instantiation
+class Player {
+    constructor(name, type) {
+        this.name = name;
+        this.type = type;
+    }
+    introduce() {
+        console.log(`Name: ${this.name}, Type: ${this.type}`)
+    }
+}
+
+class Wizard extends Player {
+    constructor(name, type) {
+        super(name, type)
+    }
+    play() {
+        console.log(`Casting the fire spell now...`)
+    }
+}

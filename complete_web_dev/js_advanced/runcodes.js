@@ -51,7 +51,59 @@ const array2 = [
   ];
   
   //Create an array using forEach that has all the usernames with a "!" to each of the usernames
-  const expArray = array2.forEach(
-    expArray.username = array2.username+'!'
-  );
-  console.log('expArray', expArray);
+  // const expArray = array2.forEach(
+  //   expArray.username = array2.username+'!'
+  // );
+  // console.log('expArray', expArray);
+
+  class Player {
+    constructor(name, type) {
+        this.name = name;
+        this.type = type;
+    }
+    introduce() {
+        console.log(`My name is ${this.name}. I am a ${this.type}`)
+    }
+}
+
+class Wizard extends Player {
+    constructor(name, type) {
+        super(name, type)
+    }
+    play() {
+        console.log(`${this.name} is casting an attack spell now...`)
+    }
+}
+
+const wizard1 = new Wizard('Harry', 'Winter Knight');
+const wizard2 = new Wizard('Molly', 'Winter Lady');
+
+wizard1.introduce();
+wizard2.introduce();
+wizard1.play();
+
+var a = 5;
+var b = 10;
+var c = a;
+
+b++;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+let object1 = {name: 'joe', password: 'pass1'};
+let object2 = object1;
+console.log(object1);
+console.log(object2);
+object2.password = 'newPass';
+console.log(object1);
+console.log(object2);
+
+var d = [1,2,3,4,5];
+var e = d;
+var f = [].concat(d);
+e.push(65432);
+console.log(d);
+console.log(e);
+console.log(f);

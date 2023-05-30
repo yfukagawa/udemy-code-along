@@ -195,3 +195,37 @@ class Wizard extends Player {
         console.log(`Casting the fire spell now...`)
     }
 }
+
+const wizard1 = new Wizard('Harry', 'Winter Knight');
+const wizard2 = new Wizard('Molly', 'Winter Lady');
+
+////
+// Pass by values vs pass by reference
+// passing by values
+var a = 5;
+var b = 10;
+var c = a;
+
+b++;
+
+console.log(a);
+console.log(b);
+console.log(c);
+
+let object1 = {name: 'joe', password: 'pass1'};
+let object2 = object1;
+console.log(object1);
+console.log(object2);
+//passing by reference
+object2.password = 'newPass';
+console.log(object1);
+console.log(object2);
+
+var d = [1,2,3,4,5];
+var e = d;
+var f = [].concat(d);
+e.push(65432);
+console.log(d);
+console.log(e);
+console.log(f);
+

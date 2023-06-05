@@ -228,4 +228,41 @@ e.push(65432);
 console.log(d);
 console.log(e);
 console.log(f);
+// shallow cloning vs deep cloning
+let clone = Object.assign({}, d)
+let clone2 = {...d}
+let superClone = JSON.parse(JSON.stringify(d))
 
+////
+//  Type Cpercion
+== vs ===
+loose vs explicit
+-0
++0 
+
+////
+// ES7
+const moo = ['cow', 'bull', 'horn'];
+moo.includes('bull');
+moo.includes('bird');
+
+const squre = (x)=> x**2
+const cube = (x)=> x**3
+
+//ES8
+.padStart()
+.padEnd()
+'Test'.padStart(10);
+'Test'.padEnd(10);
+
+const fun = (a1,
+    b1,
+    c1,
+    d1) => {
+    console.log(a1);
+}
+fun(1,2,3,4,); // returns 1
+
+Object.values
+Object.entries // key value pair
+Object.keys

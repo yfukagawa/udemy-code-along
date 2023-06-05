@@ -100,10 +100,33 @@ object2.password = 'newPass';
 console.log(object1);
 console.log(object2);
 
-var d = [1,2,3,4,5];
+var d = [1,2,3,4,5, object2];
 var e = d;
 var f = [].concat(d);
 e.push(65432);
 console.log(d);
 console.log(e);
 console.log(f);
+let clone = Object.assign({}, d);
+let clone2 = {...d};
+let superClone = JSON.parse(JSON.stringify(d))
+console.log(clone);
+console.log(clone2);
+console.log(superClone);
+
+object1 = {name: 'joe', password: 'pass1', rank: 'super'};
+
+console.log('**********');
+console.log(object1);
+console.log(object2);
+console.log(d);
+console.log(e);
+console.log(f);
+console.log(clone);
+console.log(clone2);
+console.log(superClone);
+console.log('**********');
+
+// 
+'Test'.padStart(10);
+'Test'.padEnd(10);

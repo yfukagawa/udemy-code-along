@@ -1,0 +1,13 @@
+const object1 = { a: 5 }; 
+// const object2 = object1; 
+// const object3 = object2; 
+// const object4 = { a: 5};
+// console.log(object1);
+// console.log(object2);
+// console.log(object3);
+// console.log(object4); 
+// object1.a = 4;
+// console.log(object1);
+// console.log(object2);
+// console.log(object3);
+// console.log(object4);

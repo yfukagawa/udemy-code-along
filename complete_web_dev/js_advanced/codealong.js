@@ -266,3 +266,49 @@ fun(1,2,3,4,); // returns 1
 Object.values
 Object.entries // key value pair
 Object.keys
+
+let obj = {
+    username0: 'User0',
+    username1: 'User1',
+    username2: 'User2',
+}
+Object.keys(obj).forEach((key, index) => {
+    console.log(key, obj[key])
+});
+Object.values(obj).forEach(value => {
+    console.log(value);
+});
+Object.entries(obj).forEach(value => {
+    console.log(value);
+});
+Object.entries(obj).map(value => {
+    return value[1] + value[0].replace('username', '');
+});
+
+////
+// ES10
+.flat()
+const es10array = [1,2,3,4,5]
+es10array.flat();
+const es10array2 = [1,[[2,3],4,5]];
+es10array2.flat();
+const es10entries = ['Aaa', 'Bbb',,,,,,,'Ccc'];
+es10entries.flat();
+
+flatmap();
+
+const userEmail = '        sample1@gmail.com';
+const userEmail2 = 'sample2@gmail.com        ';
+console.log(userEmail.trimStart());
+console.log(userEmail2.trimEnd());
+
+fromEntries
+userProfiles = [['Captain', 23], ['Lead', 40], ['Medic', 18]];
+Object.fromEntries(userProfiles);
+
+try-catch block 
+try {
+    4 + 5;
+} catch {
+    console.log('Wrong');
+}

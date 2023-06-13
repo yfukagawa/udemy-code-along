@@ -1,0 +1,14 @@
+inline scropt
+script tags
+IIFE
+browserify (+ commonJS)
+
+
+
+reusability (or lack of)
+dependency resolution (or lack of)
+
+ES6 + Webpack2
+export and import functions
+
+Webpack = module bundler = bundle multiple js files

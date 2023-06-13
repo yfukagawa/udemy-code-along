@@ -36,3 +36,5 @@ console.log(power); // null, empty string, or non string value would return 'no 
 
 power = yoshi_pokemon_user?.raichu?.power ?? '??: no power';
 console.log(power); //
+
+power = yoshi_pokemon_user?.raichu?.power ? yoshi_pokemon_user?.raichu?.power : '??: no power';

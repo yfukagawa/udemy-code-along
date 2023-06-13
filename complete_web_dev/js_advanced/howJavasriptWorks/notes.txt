@@ -1,0 +1,41 @@
+////
+How Javascript works
+//
+Javascript engine
+    - memory heap
+        - allocate memory; ex. const a = 1;
+        - memory leak
+            - global memory
+            - unused memories taking up spaces 
+    - call stack
+        - ex. console.log('1');
+        - what reads and excutes the scripts
+
+//
+Javascripts is a single threaded language that can be non-blocking.
+- first in last out
+- one threaded
+    - one thing at a time
+- syncrones programmming
+    - one thing at a time
+- stack overflow
+    "
+    function foo() {
+        foo()
+    }
+    "
+    - infinity recursion causes the overflow
+
+
+    foo()
+
+//
+Javascript Run-Time Environment
+    - call stack
+    - web api
+    - callback queue
+    - event loop
+
+//
+synchronous vs asynchronous 
+

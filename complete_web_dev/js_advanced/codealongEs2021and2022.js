@@ -8,3 +8,4 @@ console.log(str);
 
 // ES2022
 const numArray = [100, 200, 400, 10000, 10];
+numArray.at(-2);

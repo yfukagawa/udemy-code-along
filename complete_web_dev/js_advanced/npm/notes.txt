@@ -1,0 +1,17 @@
+npm registry
+basically a public shared javascript library
+packages or modules in registry
+    - js files (codes) + package.json file (meta data)
+
+local vs global installation
+npm install -g {package name}
+
+live-server
+lodash
+
+import from '';
+import { without } from '';
+
+dependencies (inside package.json)
+scripts
+test
